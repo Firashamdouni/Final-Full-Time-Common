@@ -22,7 +22,12 @@ function validateEmail(){
       
     }
   }
-
+  document.getElementById('navigation__icon').onclick=display;
+  /*******************/
+  function display(){
+    document.getElementById('navigation').style.display="block";
+  
+  }
 
  
   

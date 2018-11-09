@@ -84,3 +84,9 @@ email.onkeyup = validateEmail;
 //password.onchange = validatePassword;
 repassword.onkeyup = validatePassword;
 submit12.onclick=CheckPassword;
+document.getElementById('navigation__icon').onclick=display;
+/*******************/
+function display(){
+  document.getElementById('navigation').style.display="block";
+
+}
