@@ -201,7 +201,3 @@ function shake(i){
     document.getElementById('profile-userpic'+j).style.display='none'
 }
 
-
-
-
-

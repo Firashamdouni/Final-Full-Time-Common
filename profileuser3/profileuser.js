@@ -1,4 +1,5 @@
-document.getElementById('carta').style.backgroundColor ='rgba(15, 7, 7, 0.8)';
+{
+//document.getElementById('carta').style.backgroundColor ='rgba(15, 7, 7, 0.8)';
 document.getElementById('carta1').style.backgroundColor ='rgba(15, 7, 7, 0.8)';
 
 
@@ -183,7 +184,7 @@ function myMove3() {
     }
     }
 
-
+ 
 function accepte(i){
     document.getElementById('accepput'+i).innerHTML='Request accepted! Go and chat!'
     document.getElementById('refuse'+i).style.display='none'
@@ -201,7 +202,5 @@ function shake(i){
     document.getElementById('profile-userpic'+j).style.display='none'
 }
 
-
-
-
+}
 

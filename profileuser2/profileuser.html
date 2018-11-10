@@ -16,28 +16,27 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 </head>
-<body class='container'>
+<body class='container' id="aaa">
     <div id='body' class="body container-fluid">
-            <div class="navigation">
-                    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-        
-                    <label for="navi-toggle" class="navigation__button">
-                        <span class="navigation__icon">&nbsp;</span>
-                    </label>
-        
-                    <div class="navigation__background">&nbsp;</div>
-        
-                    <nav class="navigation__nav">
-                        <ul class="navigation__list">
-                            
-                            <li class="navigation__item"><a href="../profil/accueil.html" class="navigation__link">Home</a></li>
-                            <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link">Annonce</a></li>
-                            <li class="navigation__item"><a href='../profileuser/profileuser.html' class="navigation__link">Profile</a></li>
-                            <li class="navigation__item"><a href="../contact/contact.html" class="navigation__link">Contact Us</a></li>
-                            <li class="navigation__item"><a href="../index.html" class="navigation__link">log out</a></li>
-                            </ul>
-                    </nav>
-                </div>
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button" id="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="../profil/accueil.html" class="navigation__link"  id="accueil" style="pointer-events: none;" >Home</a></li>
+                <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link" id="annonce" style="  pointer-events: none;">Annonce</a></li> 
+                <li class="navigation__item"><a href='../profileuser/profileuser.html' class="navigation__link" id="profile" style="pointer-events: none;" >Profile</a></li>
+                <li class="navigation__item"><a href="../contact/contact.html" class="navigation__link" id="contact" style="  pointer-events: none;">Contact Us</a></li>
+                <li class="navigation__item"><a href="../index.html" class="navigation__link" id="home" style="pointer-events: none;" >Log Out</a></li>
+                </ul>
+        </nav>
+    </div>
         
             <div class="divcouv">
                 <img class="couverture" src="../image/profileuser2.jpg">
@@ -161,6 +160,7 @@
     </div>
     </div>
     <script src="profileuser.js"></script>
+    <script src="../profileuser3/p.js"></script>
 </body>
 </html>
 

@@ -84,9 +84,60 @@ email.onkeyup = validateEmail;
 //password.onchange = validatePassword;
 repassword.onkeyup = validatePassword;
 submit12.onclick=CheckPassword;
-document.getElementById('navigation__icon').onclick=display;
-/*******************/
-function display(){
-  document.getElementById('navigation').style.display="block";
 
-}
+  //  document.getElementById('aaa').onload=disable;
+   document.getElementById('navigation__button').onclick=display;
+// // /*******************/
+  function display(event){
+     let i = 0;
+     let a;
+    if(event.target.id =='navigation__button')
+    {  
+      i++
+      alert(i);
+       document.getElementById('home').style.pointerEvents="auto";
+       document.getElementById('annonce').style.pointerEvents="auto";
+       document.getElementById('contact').style.pointerEvents="auto";
+     }
+
+    }
+    // function disable(event){
+    //   if(event.target.id !='navigation__button'){
+    //   document.getElementById('home').style.pointerEvents="none";
+    //   document.getElementById('annonce').style.pointerEvents="none";
+    //   document.getElementById('contact').style.pointerEvents="none";
+    // }
+   // }
+  // else{
+  //   document.getElementById('home').style.pointerEvents="none";
+  //   document.getElementById('annonce').style.pointerEvents="none";
+  //   document.getElementById('contact').style.pointerEvents="none";
+  // }
+   
+//   }
+    // function disable(event){
+    //   if(event.target.id != "navigation__button")
+    //   {  
+    //     alert('bbb');
+    //     document.getElementById('home').style.pointerEvents="none";
+    //     document.getElementById('annonce').style.pointerEvents="none";
+    //     document.getElementById('contact').style.pointerEvents="none";
+    //    }
+    // }
+ 
+ 
+  
+    //   function dissplay(event){
+   
+    //     }
+     
+  
+
+//  function myFunction(event) { 
+//   let a = event.target.id;
+//   if(a==='navigation__icon'){
+//     document.getElementById('navigation').style.display="block";
+//   } else{
+//     document.getElementById('navigation').style.display="none";
+//   }
+// }

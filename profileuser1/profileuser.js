@@ -205,3 +205,23 @@ function shake(i){
 
 
 
+
+document.getElementById('aaa').onload=display;
+// /*******************/
+  function display(event){
+    if(event.target.id =="navigation__button"){
+       document.getElementById('home').style.pointerEvents="auto";
+        document.getElementById('annonce').style.pointerEvents="auto";
+       document.getElementById('contact').style.pointerEvents="auto"; 
+       document.getElementById('profile').style.pointerEvents="auto"; 
+       document.getElementById('logout').style.pointerEvents="auto"; 
+      }
+      else{
+        document.getElementById('home').style.pointerEvents="none";
+        document.getElementById('annonce').style.pointerEvents="none";
+       document.getElementById('contact').style.pointerEvents="none"; 
+       document.getElementById('profile').style.pointerEvents="none"; 
+       document.getElementById('logout').style.pointerEvents="none"; 
+
+      }
+    }

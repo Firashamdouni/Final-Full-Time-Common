@@ -19,29 +19,44 @@
     <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
     
 </head>
-<body>
-    <div class="navigation">
+<body id="aaa">
+    <!-- <div class="navigation" id="navigation__icon">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon" id="navigation__icon">&nbsp;</span>
+        <label for="navi-toggle" class="navigation__button" disabled>
+            <span class="navigation__icon" >&nbsp;</span>
         </label>
 
         <div class="navigation__background">&nbsp;</div>
 
-        <nav class="navigation__nav" id="navigation" style="display:none;">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="../index.html" class="navigation__link">Home</a></li>
-                
-                
-                <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link">Annonce</a></li>
-                
-                <li class="navigation__item"><a href="../contact/contact.html" class="navigation__link">Contact Us</a></li>
+        <nav class="navigation__nav" id="navigation">
+            <ul class="navigation__list"  >
+                <li class="navigation__item" disabled><a href="../index.html" class="navigation__link">Home</a></li>
+                <li class="navigation__item" disabled><a href="../annonce/annonce.html" class="navigation__link">Annonce</a></li>
+                <li class="navigation__item" disabled><a href="../contact/contact.html" class="navigation__link">Contact Us</a></li>
             
                 </ul>
         </nav>
-    </div>
+    </div> -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" >
 
+      <label for="navi-toggle" class="navigation__button" id="navigation__button" >
+          <span class="navigation__icon" >&nbsp;</span>
+      </label>
+
+      <div class="navigation__background" >&nbsp;</div>
+
+      <nav class="navigation__nav" id="navigation">
+          <ul class="navigation__list">
+              <li class="navigation__item"><a href="../index.html" class="navigation__link" id="home" style="pointer-events: none;" >Home</a></li>
+              <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link" id="annonce" style="  pointer-events: none;">Annonce</a></li>
+              
+              <li class="navigation__item"><a href="../contact/contact.html" class="navigation__link" id="contact" style="  pointer-events: none;">Contact Us</a></li>
+       
+              </ul>
+      </nav>
+  </div>
     <div id="card">
   
         <div id="front" class='front'>
