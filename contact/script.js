@@ -22,23 +22,4 @@ function validateEmail(){
       
     }
   }
-  document.getElementById('navigation__button').onclick=display;
-  /*******************/
-  function display(){
-    document.getElementById('navigation').style.display="block";
-  
-  }
-
-  document.getElementById('navigation__button').onclick=display;
-  // /*******************/
-    function display(event){
-      if(event.target.id =="navigation__button"){
-         document.getElementById('home').style.pointerEvents="auto";
-          document.getElementById('annonce').style.pointerEvents="auto";
-         document.getElementById('profile').style.pointerEvents="auto";
-         document.getElementById('logout').style.pointerEvents="auto";
-        }
-
-     }
  
-  

@@ -73,15 +73,3 @@ function myFunction(e) {
 
 /********************* */
 // Set the date we're counting down to
-
-document.getElementById('navigation__button').onclick=display;
-// /*******************/
-  function display(event){
-    if(event.target.id =="navigation__button"){
-       document.getElementById('home').style.pointerEvents="auto";
-       document.getElementById('contact').style.pointerEvents="auto"; 
-       document.getElementById('profile').style.pointerEvents="auto";
-       document.getElementById('logout').style.pointerEvents="auto";
-      }
-    
-   }

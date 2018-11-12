@@ -15,23 +15,23 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 </head>
-<body id="aaa">
+<body id="aaa" onload="displayNone()">
         <div class="navigation">
-                <input type="checkbox" class="navigation__checkbox" id="navi-toggle" >
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle"  >
           
-                <label for="navi-toggle" class="navigation__button" id="navigation__button" >
+                <label for="navi-toggle" class="navigation__button" id="navigation__button" onclick="display()">
                     <span class="navigation__icon" >&nbsp;</span>
                 </label>
           
-                <div class="navigation__background" >&nbsp;</div>
+                <div class="navigation__background">&nbsp;</div>
           
-                <nav class="navigation__nav" id="navigation">
+                <nav class="navigation__nav" id="tour">
                     <ul class="navigation__list">
-                        <li class="navigation__item"><a href="login/login.html" class="navigation__link" id="login" style="pointer-events: none;" >Login</a></li>
-                        <li class="navigation__item"><a href="login/login.html" class="navigation__link" id="signup" style="pointer-events: none;" >Sign Up</a></li>
-                        <li class="navigation__item"><a href="annonce/annonce.html" class="navigation__link" id="annonce" style="  pointer-events: none;">Annonce</a></li>
+                        <li class="navigation__item"><a href="login/login.html" class="navigation__link" id="login" >Login</a></li>
+                        <li class="navigation__item"><a href="login/login.html" class="navigation__link" id="signup"  >Sign Up</a></li>
+                        <li class="navigation__item"><a href="annonce/annonce.html" class="navigation__link" id="annonce" >Annonce</a></li>
                         
-                        <li class="navigation__item"><a href="contact/contact.html" class="navigation__link" id="contact" style="  pointer-events: none;">Contact Us</a></li>
+                        <li class="navigation__item"><a href="contact/contact.html" class="navigation__link" id="contact" >Contact Us</a></li>
                  
                         </ul>
                 </nav>
@@ -228,6 +228,7 @@
                     <div class="text-center">Firas Hamdouni & Sabri Selmi, GoMyCode | 2018 / 2019 © Tous droits réservés</div>
             </footer>
             <script src="script.js"></script>
+            <script src="p.js"></script>
 </body>
 </html>
 

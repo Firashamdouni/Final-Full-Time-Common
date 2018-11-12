@@ -18,23 +18,22 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body id="aaa">
-    <div class="container1">
-      <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
-        <label for="navi-toggle" class="navigation__button" id="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
-
-        <div class="navigation__background">&nbsp;</div>
-
-        <nav class="navigation__nav">
+<body id="aaa" class='container1' onload="displayNone()">
+  <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle"  >
+    
+          <label for="navi-toggle" class="navigation__button" id="navigation__button" onclick="display()">
+              <span class="navigation__icon" >&nbsp;</span>
+          </label>
+    
+          <div class="navigation__background">&nbsp;</div>
+    
+          <nav class="navigation__nav" id="tour">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="../profil/accueil.html" class="navigation__link" id="home"style="pointer-events: none;">Home</a></li>
-                <li class="navigation__item"><a href="../profileuser/profileuser.html" class="navigation__link" id="profile"style="pointer-events: none;">Profile</a></li>
-                <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link" id="annonce" style="pointer-events: none;">Annonce</a></li>
-                <li class="navigation__item"><a href="../index.html" class="navigation__link" id="logout" style="pointer-events: none;">Log Out</a></li>
+                <li class="navigation__item"><a href="../profil/accueil.html" class="navigation__link" id="home">Home</a></li>
+                <li class="navigation__item"><a href="../profileuser/profileuser.html" class="navigation__link" id="profile">Profile</a></li>
+                <li class="navigation__item"><a href="../annonce/annonce.html" class="navigation__link" id="annonce" >Annonce</a></li>
+                <li class="navigation__item"><a href="../index.html" class="navigation__link" id="logout" >Log Out</a></li>
                 </ul>
         </nav>
     </div>
@@ -90,6 +89,7 @@
         </div>
     </div>
   <script src="script.js"></script>
+  <script src="../p.js"></script>
 </body>
 </html>
 
